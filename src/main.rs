@@ -1,5 +1,5 @@
 fn test() -> bool {
-   true
+    true
 }
 
 fn main() {
