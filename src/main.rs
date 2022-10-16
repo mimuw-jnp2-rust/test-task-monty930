@@ -1,11 +1,13 @@
+#[warn(dead_code)]
+
 fn test() -> bool {
-   false
+   true
 }
 
 fn main() {
+    test();
     println!("Hello, world!");
 }
-
 
 #[cfg(test)]
 mod tests {
